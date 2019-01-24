@@ -47,9 +47,7 @@
       <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav mx-auto">
         <li class="nav-item dropdown active dropdown-slide">
-          <a class="nav-link" href="#"  data-toggle="dropdown">Home
-            <span>/</span>
-          </a>
+          <a class="nav-link" href="#"  data-toggle="dropdown">Home<span>/</span></a>
           <!-- Dropdown list -->
           <div class="dropdown-menu">
             <a class="dropdown-item" href="index.html">Homepage</a>
@@ -57,9 +55,7 @@
           </div>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="speakers.html">Speakers
-            <span>/</span>
-          </a>
+          <a class="nav-link" href="speakers.html">Speakers<span>/</span></a>
         </li>
         <li class="nav-item dropdown dropdown-slide">
           <a class="nav-link" href="#" data-toggle="dropdown">Pages<span>/</span></a>
@@ -82,8 +78,7 @@
           <a class="nav-link" href="sponsors.html">Sponsors<span>/</span></a>
         </li>
         <li class="nav-item dropdown dropdown-slide">
-          <a class="nav-link" href="#"  data-toggle="dropdown">News
-            <span>/</span>
+          <a class="nav-link" href="#"  data-toggle="dropdown">News<span>/</span>
           </a>
           <!-- Dropdown list -->
           <div class="dropdown-menu">
@@ -98,8 +93,7 @@
         </li>
       </ul>
       <a href="#" class="ticket">
-        <img src="images/icon/ticket.png" alt="ticket">
-        <span>Buy Ticket</span>
+<span>Register</span>
       </a>
       </div>
   </div>
@@ -117,12 +111,146 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-12 text-center">
-				<div class="title">
-					<h3>Speaker Details</h3>
+				<div class="title"><br> <br>
+					<h3>Lectures</h3>
 				</div>
 				<ol class="breadcrumb p-0 m-0">
 				  <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-				  <li class="breadcrumb-item active">Speaker Details</li>
+				  <li class="breadcrumb-item active">Lectures</li>
+        <br><br><br>   <li class="breadcrumb-item active">
+
+                <form action = "/search_result/" method = "get">
+
+                                           Search
+
+                    <input id="id_search_query" name="search_query" type="text" />
+
+                <input type='submit' value = 'search'>
+
+               </form>
+                <form action="/discipline/" method="get">
+
+                <br>Show lectures only of the Discipline: <br><select name = "id" onchange="this.form.submit()">
+
+                <option value ="0"  selected="selected" >Select a Discipline
+
+                </option>
+
+
+                 <option value ="1" >
+                 Chemical Engineering
+                 </option>
+
+
+
+                 <option value ="2" >
+                 Civil Engineering
+                 </option>
+
+
+
+                 <option value ="3" >
+                 Mechanical Engineering
+                 </option>
+
+
+
+                 <option value ="4" >
+                 Electical And Electronics Engineerings-Electronics
+                 </option>
+
+
+
+                 <option value ="5" >
+                 Computer Science-Information Systems
+                 </option>
+
+
+
+                 <option value ="6" >
+                 Physics
+                 </option>
+
+
+
+                 <option value ="7" >
+                 Chemistry
+                 </option>
+
+
+
+                 <option value ="8" >
+                 Mathematics
+                 </option>
+
+
+
+                 <option value ="9" >
+                 Biology
+                 </option>
+
+
+
+                 <option value ="10" >
+                 Pharmacy
+                 </option>
+
+
+
+                 <option value ="11" >
+                 Economics
+                 </option>
+
+
+
+                 <option value ="12" >
+                 Finance
+                 </option>
+
+
+
+                 <option value ="13" >
+                 Other
+                 </option>
+
+
+
+                 <option value ="15" >
+                 Interdisciplinary
+                 </option>
+
+
+
+
+
+                 <option value ="17" >
+                 MS / PHD Admissions
+                 </option>
+
+
+
+                 <option value ="18" >
+                 MBA Admissions
+                 </option>
+
+
+
+                 <option value ="19" >
+                 Management
+                 </option>
+
+
+
+                 <option value ="21" >
+                 Entrepreneurship
+                 </option>
+
+
+              </select>
+
+
+            </form></li>
+
 				</ol>
 			</div>
 		</div>
@@ -132,126 +260,41 @@
 <!--====  End of Page Title  ====-->
 
 
-<section class="section single-speaker">
-	<div class="container">
-		<div class="block">
-			<div class="row">
-				<div class="col-lg-5 col-md-6 align-self-md-center">
-					<div class="image-block">
-						<img src="images/speakers/single-speaker.jpg" class="img-fluid" alt="speaker">
-					</div>
-				</div>
-				<div class="col-lg-7 col-md-6 align-self-center">
-					<div class="content-block">
-						<div class="name">
-							<h3>Jonathan Franco</h3>
-						</div>
-						<div class="profession">
-							<p>Web Developer</p>
-						</div>
-						<div class="details">
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusm tempor incididunt ut labore dolore magna aliqua enim ad minim veniam quis nostrud.laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse.
-							Duis aute irure dolor in reprehenderit in voluptate velit esse.
-							<br>
-							</p>
-							<p>
-							Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
-							<br>
-							Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur</p>
-						</div>
-						<div class="social-profiles">
-							<h5>Social Profiles</h5>
-							<ul class="list-inline social-list">
-								<li class="list-inline-item">
-									<a href="#"><i class="fa fa-twitter"></i></a>
-								</li>
-								<li class="list-inline-item">
-									<a href="#"><i class="fa fa-linkedin"></i></a>
-								</li>
-								<li class="list-inline-item">
-									<a href="#"><i class="fa fa-facebook"></i></a>
-								</li>
-								<li class="list-inline-item">
-									<a href="#"><i class="fa fa-skype"></i></a>
-								</li>
-								<li class="list-inline-item">
-									<a href="#"><i class="fa fa-pinterest-p"></i></a>
-								</li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="block-2">
-			<div class="row">
-				<div class="col-md-6">
-					<div class="personal-info">
-						<h5>Personal Information</h5>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi explicabo suscipit deleniti voluptatum quos nostrum iure doloremque cupiditate voluptatem a enim eaque quod perspiciatis repudiandae, mollitia adipisci ea, quidem eveniet consequatur veniam error. Adipisci, suscipit corporis repellat, soluta vitae deserunt perspiciatis labore reprehenderit sapiente provident vel maxime.</p>
-						<ul class="m-0 p-0">
-							<li>Morbi fermentum felis nec</li>
-							<li>Fermentum felis nec gravida tempus.</li>
-							<li>Morbi fermentum felis nec</li>
-							<li>Fermentum felis nec gravida tempus.</li>
-							<li>Morbi fermentum felis nec</li>
-						</ul>
-					</div>
-				</div>
-				<div class="col-md-6">
-					<div class="skills">
-						<h5>Personal Skills</h5>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis repellat inventore at praesentium perspiciatis labore reprehenderit sapiente provident vel maxime.</p>
-						<div class="skill-bars">
-							<!-- SkillBar -->
-							<div class="skill-bar">
-								<!-- Title -->
-								<p>Wordpress</p>
-								<!-- Progress Bar -->
-								<div class="progress">
-								  <div class="progress-bar" role="progressbar" style="width: 90%;"><span>90%</span></div>
-								</div>
-							</div>
-							<!-- SkillBar -->
-							<div class="skill-bar">
-								<!-- Title -->
-								<p>PHP</p>
-								<!-- Progress Bar -->
-								<div class="progress">
-								  <div class="progress-bar" role="progressbar" style="width: 75%;">
-								  	<span>75%</span>
-								  </div>
-								</div>
-							</div>
-							<!-- SkillBar -->
-							<div class="skill-bar">
-								<!-- Title -->
-								<p>Javascript</p>
-								<!-- Progress Bar -->
-								<div class="progress">
-								  <div class="progress-bar" role="progressbar" style="width: 60%;">
-								  	<span>60%</span>
-								  </div>
-								</div>
-							</div>
-							<!-- SkillBar -->
-							<div class="skill-bar">
-								<!-- Title -->
-								<p>HTML</p>
-								<!-- Progress Bar -->
-								<div class="progress">
-								  <div class="progress-bar" role="progressbar" style="width: 80%;">
-								  	<span>80%</span>
-								  </div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
+<!--=============================
+=            Gallery            =
+==============================-->
+
+<div class="scroll" style="overflow=auto; height-max:600px;">
+        <p style="text-align:center;">
+    {% if i %}
+    <a href="/lectures/{{i|add:'-1'}}">Newer</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    {% endif %}
+    {% if next %}
+    <a href="/lectures/{{i|add:'1'}}">Older</a>
+    {% endif %}
+        </p>
+
+
+		        <div class="gallery-wrapper">
+		        	<div class="gallery-item mix meeting">
+		        		<div class="image-block">  {% for lecture in all_lectures %}
+    <tr>
+    	{% autoescape off %}<td><p><a href="/lecturedetail_id={{lecture.id}}">{{ lecture.topic }}</a></p>{% endautoescape %}
+        <p>{{lecture.discipline.all|join:","}}	</p></td>
+
+			        		<div class="image">
+			        			<img src="{{MEDIA_URL}}{{ lecture.photo|default:'Speakerphotos/noimage.jpg' }}" alt="gallery-image" class="img-fluid">
+                    <br> <b>{{ lecture.presenter }}</b>
+			        			<div class="primary-overlay">
+			        				<a  href="About_the_speaker.html"><i class="fa fa-picture-o"></i></a>
+			        			</div>
+			        		</div>
+		        		</div>
+		        	</div>
+
+
+
+<!--====  End of Gallery  ====-->
 
 <!--==============================================
 =            Call to Action Subscribe            =
@@ -286,24 +329,9 @@
 
 <!--====  End of Call to Action Subscribe  ====-->
 
-<!--================================
-=            Google Map            =
-=================================-->
 
-<section class="map">
-	<!-- Google Map -->
-	<div id="map"></div>
-	<div class="address-block">
-		<h4>Docklands Convention</h4>
-		<ul class="address-list p-0 m-0">
-			<li><i class="fa fa-home"></i><span>1201 Park Street, Fifth Avenue, <br>Dhanmondy, Dhaka.</span></li>
-			<li><i class="fa fa-phone"></i><span>[88] 657 524 332</span></li>
-		</ul>
-		<a href="#" class="btn btn-white-md">Get Direction</a>
-	</div>
-</section>
 
-<!--====  End of Google Map  ====-->
+
 
 <!--============================
 =            Footer            =
@@ -315,7 +343,7 @@
         <div class="col-md-12">
           <div class="block text-center">
             <div class="footer-logo">
-              <img src="images/footer-logo.png" alt="logo" class="img-fluid">
+              <img src="images/logo.png" alt="logo" class="img-fluid">
             </div>
             <ul class="social-links-footer list-inline">
               <li class="list-inline-item">
@@ -346,7 +374,7 @@
     <div class="row">
       <div class="col-md-6 align-self-center">
         <div class="copyright-text">
-          <p><a href="#">Eventre</a> &#169; 2017 All Right Reserved</p>
+          <p><a href="#">Bits Embryo</a> &#169; 2017 All Right Reserved</p>
         </div>
       </div>
       <div class="col-md-6">
